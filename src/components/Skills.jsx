@@ -17,7 +17,7 @@ export default function Eduaction() {
         <header>Skills</header>
         <div className='SK-grid'>
           {skills_list.map((e,index)=>(
-            <SKcard key={index} photo={`src/components/images/${e.photo}`} t={e.t} />
+            <SKcard key={index} photo={`/images/${e.photo}`} t={e.t} />
           ))}
         </div>
     </div>

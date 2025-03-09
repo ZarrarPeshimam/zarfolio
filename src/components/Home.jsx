@@ -18,7 +18,7 @@ export default function Home() {
           <a href="/resume.pdf" download className="btn">Download Resume</a>
         </div>
         <div className="profile-pic">
-          <img src="public\profile.jpg" alt="profile_pic" />
+          <img src="/profile.jpg" alt="profile_pic" />
           <p>Front-end Developer | ML Enthusiast | Competetive Programmer | Part-time Content Creator</p>
         </div>
       </div>

@@ -13,10 +13,10 @@ export default function Contact() {
             <div className='social-links'>
                 <p>Connect with me:</p>
                 <a onClick={()=>window.open('https://www.linkedin.com/in/zarrar-peshimam-a2439b28b', '_blank')}>
-                    <img src="public\images\linkedin.png" alt="linkedin" />
+                    <img src="/images/linkedin.png" alt="linkedin" />
                 </a>
                 <a onClick={()=>window.open('https://github.com/ZarrarPeshimam', '_blank')}>
-                <img src="public\images\github.png" alt="git" />
+                <img src="/images/github.png" alt="git" />
                 </a>
             </div>
         </div>

@@ -13,7 +13,7 @@ export default function Skills() {
         <header>Education</header>
         <div className='Edu-grid'>
           {edu_list.map((e,index)=>(
-            <Educard key={index} photo={`public/images/${e.photo}`} t={e.t} grade={e.grade} d={e.d} />
+            <Educard key={index} photo={`/images/${e.photo}`} t={e.t} grade={e.grade} d={e.d} />
           ))}
         </div>
     </div>

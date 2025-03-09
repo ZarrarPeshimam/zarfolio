@@ -22,7 +22,7 @@ Edited and managed event-related visual content.`, time: '2023-24' }
       <header>Experience</header>
       <div className='Exp-grid'>
         {exp_list.map((e, index) => (
-          <Expcard key={index} photo={`public/images/${e.photo}`} t={e.t} role={e.role} time={e.time} index={index} 
+          <Expcard key={index} photo={`/images/${e.photo}`} t={e.t} role={e.role} time={e.time} index={index} 
             isSelected={index === selectedIndex} 
             onClick={() => setSelectedIndex(index)}
           />

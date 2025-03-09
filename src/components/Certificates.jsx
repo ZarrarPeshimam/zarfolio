@@ -34,7 +34,7 @@ export default function Certificates() {
         <div className='cer-lister'>
           <ul>
               {cer_list.map((e,index)=>(
-                  <Cer_card key={index} photo={`public/images/cer/${e.photo}`} t={e.t} link={e.link}/>
+                  <Cer_card key={index} photo={`/images/cer/${e.photo}`} t={e.t} link={e.link}/>
               ))}
           </ul>
         </div>
