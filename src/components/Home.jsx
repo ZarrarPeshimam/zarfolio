@@ -15,7 +15,7 @@ export default function Home() {
           <p>Apart from being a Engineer, I am also a <a className="hero-content-hobby" href='https://www.instagram.com/zarrar_quote/'>Part-time Content Creator</a>. 
           Creating poster-designs as a hobby, expressing my creativeity to the world.
           </p>
-          <a href="/Resume_Zarrar.pdf" download className="btn">Download Resume</a>
+          <a href="/Resume.pdf" download className="btn">Download Resume</a>
         </div>
         <div className="profile-pic">
           <img src="/profile.jpg" alt="profile_pic" />
