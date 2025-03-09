@@ -23,7 +23,7 @@ export default function Projects() {
                 {project_list.map((e, index) => (
                     <Projcard 
                         key={index} 
-                        photo={`src/components/images/proj/${e.photo}`} 
+                        photo={`public/images/proj/${e.photo}`} 
                         t={e.t} 
                         skills={e.skills} 
                         index={index}
