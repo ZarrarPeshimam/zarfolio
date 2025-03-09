@@ -1,0 +1,49 @@
+.Edu-card-container{
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: #34335b;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+}
+
+.Edu-card-container:hover {
+    border-color: rgba(1, 145, 255, 0.399);
+    /*background-color: #33535b;*/
+}
+
+.Edu-card-container img {
+    max-width: 50%;  
+    max-height: 85px; 
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto;
+}
+
+.Edu-card-container h1 {
+    color: rgb(0, 153, 255);
+    font-size: 25px;
+}
+
+.Edu-card-container p {
+    line-height: 1.2; 
+    margin: 2px 0; 
+
+}
+
+.Edu-d{
+    color: white;
+    font-size: 16px;
+}
+
+.Edu-g {
+    color: rgb(0, 195, 255);
+    font-size: 14px;
+    font-weight: 600;
+
+}

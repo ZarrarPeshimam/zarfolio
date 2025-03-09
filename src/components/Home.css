@@ -1,0 +1,91 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 20px; 
+  margin-left: 80px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+  justify-content: space-between; 
+  margin-left: 0px;
+}
+  .welcome-message{
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(185, 185, 4);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px; 
+}
+
+.profile-pic {
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+}
+
+.profile-pic img {
+  width: 300px; 
+  height: 300px;
+  padding-left: 80px;
+}
+.hero-content {
+  width: 55%;
+}
+  .hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .hero-content .highlight {
+    color: #007bff;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #cacaca;
+  }
+
+  .profile-pic a{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .profile-pic a:hover{
+    color: #bd0ecd;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .btn:hover{
+    background: #023c7a;
+    color: white;
+    transition: color 0.5s ease-in-out;
+  }
+
+.hero-content-hobby{
+  text-decoration: none;
+  color: #899dee;
+  transition: text-decoration 0.5 ease-in-out;
+}
+
+.hero-content-hobby:hover{
+  text-decoration: underline;
+}
+  
+  

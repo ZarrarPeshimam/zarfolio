@@ -1,0 +1,65 @@
+.Proj-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the grid horizontally */
+}
+    
+
+.Proj-container header{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.Proj-grid{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 30px;
+  width: 60%;
+}
+
+.Proj-details{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    width: 90%;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.Proj-details:hover{
+    border-color: rgba(255, 255, 255, 0.176);
+}
+
+.Proj-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Proj-buttons button{
+    border-radius: 1px;
+    height: 20px;
+    text-align: center;
+}
+
+.Proj-buttons button:hover{
+    border-color: white;
+}
+
+.Proj-git{
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.307);
+    cursor: pointer;
+}
+
+.Proj-link{
+    background-color: rgb(3, 136, 12);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.307);
+    cursor: pointer;
+}

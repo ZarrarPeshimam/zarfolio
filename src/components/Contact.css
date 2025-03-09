@@ -1,0 +1,30 @@
+.contact-container h2{
+    padding-bottom: 15px;
+}
+
+.contact-details{
+    padding-bottom: 10px;
+}
+
+.contact-details strong{
+    color: rgb(12, 84, 192);
+}
+
+.social-links p{
+    color: rgb(5, 86, 225);
+}
+
+.social-links {
+    gap: 10px;
+}
+
+.social-links a{
+    cursor: pointer;
+    padding: 0px 20px ;
+    border-color: transparent 1px;
+}
+
+.social-links a img {
+    height: 70px;
+    
+}

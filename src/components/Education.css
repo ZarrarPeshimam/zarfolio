@@ -1,0 +1,14 @@
+.Edu-container {
+    padding: 30px;
+}
+
+.Edu-container header{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.Edu-grid{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+}

@@ -1,0 +1,14 @@
+.Skill-container {
+    padding: 30px;
+}
+
+.Skill-container header{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.SK-grid{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}

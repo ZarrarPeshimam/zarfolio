@@ -1,0 +1,15 @@
+.Cer-container {
+    padding: 30px;
+}
+
+.Cer-container header{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.cer-lister ul{
+    list-style: none; 
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}

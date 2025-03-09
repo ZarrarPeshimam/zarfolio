@@ -1,0 +1,47 @@
+.Exp-card-container{
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: #34335b;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+}
+
+.Exp-card-container:hover {
+    border-color: rgba(238, 238, 238, 0.386);
+    transform: scale(1.05);
+    /*background-color: #33535b;*/
+}
+
+.Exp-card-container img {
+    height: 100px; 
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto;
+}
+
+.Exp-card-container h1 {
+    color: rgb(0, 153, 255);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.Exp-r {
+    color: rgb(0, 195, 255);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 0.5; 
+    margin: 2px 0; 
+}
+
+.Exp-t {
+    color: white;
+    font-size: 14px;
+    line-height: 0.5; 
+    margin: 2px 0; 
+}

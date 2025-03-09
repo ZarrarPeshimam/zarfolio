@@ -1,0 +1,47 @@
+.Proj-card-container{
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: #2d2d2d;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+}
+
+.Proj-card-container:hover {
+    transform: scale(1.05);
+    border-color: rgba(255, 255, 255, 0.176);
+    /*background-color: #33535b;*/
+}
+
+.Proj-card-container img {
+    height: 100px; 
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto;
+}
+
+.Proj-card-container h1 {
+    color: rgb(0, 153, 255);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.Proj-s {
+    color: rgb(204, 204, 204);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 0.5; 
+    margin: 2px 0; 
+}
+
+.Proj-t {
+    color: white;
+    font-size: 14px;
+    line-height: 0.5; 
+    margin: 2px 0; 
+}

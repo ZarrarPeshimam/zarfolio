@@ -1,0 +1,47 @@
+.Cer-card-container{
+    padding: 20px 20px;
+    border-radius: 10px;
+    /*background-color: #33535b;*/
+    background-color: #2d2d2d;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.Cer-card-container:hover {
+    /*border-color: rgba(0, 255, 174, 0.399);*/
+    border-color: rgba(255, 255, 255, 0.176);
+    transform: scale(1.05);
+}
+
+.details {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cert-image {
+    max-width: 70%; 
+    height: auto; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.details a{
+    color: rgb(15, 168, 228);
+    cursor: pointer;
+}
+
+.Cer-card-container:hover a{
+    text-decoration: underline;
+}
+
+
+

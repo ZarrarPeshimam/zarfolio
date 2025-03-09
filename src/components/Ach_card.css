@@ -1,0 +1,17 @@
+.Ach-card-container{
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: rgb(31, 30, 45);
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.Ach-card-container:hover {
+    border-color: rgba(0, 85, 150, 0.399);
+}
