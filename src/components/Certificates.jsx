@@ -22,19 +22,20 @@ export default function Certificates() {
 
   return (
     <div className='Cer-container'>
+      <header>Certificates</header>
+        <div className='cer-lister'>
+          <ul>
+              {cer_list.map((e,index)=>(
+                  <Cer_card key={index} photo={`/images/cer/${e.photo}`} t={e.t} link={e.link}/>
+              ))}
+          </ul>
+        </div>
+        
         <header>Achievements</header>
         <div className='cer-lister'>
           <ul>
               {ach_list.map((e,index)=>(
                   <Ach_card key={index} t={e.t}/>
-              ))}
-          </ul>
-        </div>
-        <header>Certificates</header>
-        <div className='cer-lister'>
-          <ul>
-              {cer_list.map((e,index)=>(
-                  <Cer_card key={index} photo={`/images/cer/${e.photo}`} t={e.t} link={e.link}/>
               ))}
           </ul>
         </div>

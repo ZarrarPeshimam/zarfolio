@@ -15,17 +15,3 @@
   gap: 20px;
 }
 
-.Exp-details{
-    margin-top: 20px;
-    margin-left: 20px;
-    padding: 10px 20px;
-    width: 90%;
-    background-color: rgb(31, 30, 45);
-    border-radius: 10px;
-    border: 2px solid transparent;
-    transition: all 0.3s ease-in-out;
-}
-
-.Exp-details:hover{
-    border-color: rgba(0, 85, 150, 0.399);
-}

@@ -17,7 +17,7 @@
   .welcome-message{
     font-size: 34px;
     font-weight: bold;
-    color: rgb(185, 185, 4);
+    color: rgb(18, 36, 230);
     text-align: center;
     margin-top: 40px;
     margin-bottom: 20px; 
@@ -35,19 +35,19 @@
   padding-left: 80px;
 }
 .hero-content {
-  width: 55%;
+  width: 60%;
 }
   .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
   }
   
   .hero-content .highlight {
-    color: #007bff;
+    color: #348cea;
   }
   
   .hero-content p {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     margin-top: 10px;
     color: #cacaca;
   }
@@ -68,7 +68,7 @@
     margin-top: 15px;
     padding: 10px 20px;
     background: #007bff;
-    color: white;
+    color: rgb(220, 218, 218);
     text-decoration: none;
     border-radius: 5px;
   }
@@ -80,12 +80,15 @@
 
 .hero-content-hobby{
   text-decoration: none;
-  color: #899dee;
-  transition: text-decoration 0.5 ease-in-out;
+  text-decoration-line: none;
+  color: rgb(57, 73, 255);
+  transition: all 0.2s ease-in-out;
 }
 
 .hero-content-hobby:hover{
-  text-decoration: underline;
+  color: rgb(22, 184, 229);
+  
+  
 }
   
   

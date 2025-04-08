@@ -10,19 +10,36 @@
     border: 2px solid transparent;
     transition: all 0.3s ease-in-out;
     align-items: center;
+    overflow: hidden;
+    position: relative
+    
 }
 
 .Proj-card-container:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     border-color: rgba(255, 255, 255, 0.176);
+    cursor: pointer;
     /*background-color: #33535b;*/
 }
 
 .Proj-card-container img {
-    height: 100px; 
+    height: 110px; 
     object-fit: contain; 
     display: block;
     margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.Proj-card-container:hover .Proj-card-front{
+    opacity: 0;
+}
+.Proj-card-front{
+    opacity: 1;
+    position: absolute;
+    transition: opacity 0.3s ease-in-out
+    
 }
 
 .Proj-card-container h1 {
@@ -45,3 +62,66 @@
     line-height: 0.5; 
     margin: 2px 0; 
 }
+
+.Proj-details{
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    inset: 0;
+}
+
+.Proj-dl {
+    margin: 2px 0; /* Adjust as needed */
+    line-height: 1.2; /* Reduces space between lines */
+    width: 80%;
+    text-align: center;
+}
+
+.Proj-details {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Proj-buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    width: 80%;
+}
+
+.Proj-buttons button{
+    border-radius: 4px;
+    height: 25px;
+    text-align: center;
+
+}
+
+.Proj-buttons button:hover{
+    border-color: white;
+}
+
+.Proj-git{
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.307);
+    cursor: pointer;
+}
+
+.Proj-link{
+    background-color: rgb(3, 136, 12);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.307);
+    cursor: pointer;
+}
+
+
+
+.Proj-card-container:hover .Proj-details {
+    opacity: 1;
+  }

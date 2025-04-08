@@ -2,12 +2,29 @@
     padding-bottom: 15px;
 }
 
+.contact-container {
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .contact-details{
     padding-bottom: 10px;
+    background-color: rgb(33, 33, 34);
+    padding: 10px;
+    width: 50%;
+    
+    border: 2px solid transparent;
+    border-radius: 0.8rem;
+    border-color: rgba(167, 167, 167, 0.317);
 }
 
 .contact-details strong{
     color: rgb(12, 84, 192);
+    
 }
 
 .social-links p{
@@ -16,12 +33,18 @@
 
 .social-links {
     gap: 10px;
+    padding: 10px;
 }
 
 .social-links a{
     cursor: pointer;
     padding: 0px 20px ;
     border-color: transparent 1px;
+    transition: all 0.5s ease-in;
+}
+
+.social-links a:hover{
+    transform: scale(1.05);
 }
 
 .social-links a img {

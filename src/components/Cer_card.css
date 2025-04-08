@@ -34,13 +34,21 @@
     margin-bottom: 10px;
 }
 
-.details a{
-    color: rgb(15, 168, 228);
+.details button{
+    color: rgb(224, 225, 226);
     cursor: pointer;
+    background-color: rgb(9, 50, 115);
+    border: 0px;
+    font-size: 15px;
+    width: 70%;
+    padding: 10px 30px;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease-in-out;
 }
 
-.Cer-card-container:hover a{
-    text-decoration: underline;
+.details button:hover{
+    transform: scale(1.05);
+    background-color: rgb(15, 80, 185);
 }
 
 

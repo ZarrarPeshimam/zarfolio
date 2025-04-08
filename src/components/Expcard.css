@@ -1,7 +1,8 @@
 .Exp-card-container{
     padding: 20px 20px;
     border-radius: 10px;
-    background-color: #34335b;
+    background-color: rgb(31, 30, 45);
+    /*background-color: #34335b;*/
     width:90%;
     display: flex;
     flex-direction: column;
@@ -10,11 +11,14 @@
     border: 2px solid transparent;
     transition: all 0.3s ease-in-out;
     align-items: center;
+    position: relative;
 }
 
 .Exp-card-container:hover {
-    border-color: rgba(238, 238, 238, 0.386);
+    border-color: rgba(0, 85, 150, 0.399);
     transform: scale(1.05);
+    /*background-color: rgb(22, 20, 57);*/
+    cursor: pointer;
     /*background-color: #33535b;*/
 }
 
@@ -26,7 +30,7 @@
 }
 
 .Exp-card-container h1 {
-    color: rgb(0, 153, 255);
+    color: rgb(221, 223, 224);
     font-size: 25px;
     margin-bottom: 5px;
 }
@@ -35,13 +39,46 @@
     color: rgb(0, 195, 255);
     font-size: 14px;
     font-weight: 600;
-    line-height: 0.5; 
-    margin: 2px 0; 
+    line-height: 0.5;  
 }
 
 .Exp-t {
     color: white;
     font-size: 14px;
     line-height: 0.5; 
-    margin: 2px 0; 
 }
+
+.Exp-card-front{
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    
+}
+
+.Exp-card-container:hover .Exp-details {
+    opacity: 1;
+  }
+  .Exp-card-container:hover .Exp-card-front {
+    opacity: 0;
+  }
+
+  .Exp-details{
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out
+}
+
+.Exp-dl {
+    margin: 2px 0; /* Adjust as needed */
+    line-height: 1.2; /* Reduces space between lines */
+    width: 80%;
+    text-align: center;
+}
+
+

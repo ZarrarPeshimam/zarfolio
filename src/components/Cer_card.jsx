@@ -12,8 +12,8 @@ export default function Cer_card(procs) {
             {showDetails && (
                 <div className="details">
                     <img src={photo} alt="certificate" className="cert-image" />
-                    {link !== '' && <a onClick={()=>window.open(link, '_blank')
-                    }>Verify</a>}
+                    {link !== '' && <button onClick={()=>window.open(link, '_blank')
+                    }>Verify</button>}
                 </div>
             )}
         </div>
