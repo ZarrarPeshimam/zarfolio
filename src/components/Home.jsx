@@ -19,7 +19,8 @@ export default function Home() {
   >Part-time Content Creator</a>. 
           Creating poster-designs as a hobby, expressing my creativeity to the world.
           </p>
-          <a href="/Resume_Zarrar.pdf" download className="btn">Download Resume</a>
+          <a href="/Resume_Zarrar.pdf" download className="btn">Download Resume
+          <img src='/images/download.png' alt='download'></img></a>
         </div>
         <div className="profile-pic">
           <img src="/profile.jpeg" alt="profile_pic" />
