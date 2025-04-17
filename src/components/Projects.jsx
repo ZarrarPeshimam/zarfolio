@@ -6,7 +6,7 @@ export default function Projects() {
     const [selectedIndex, setSelectedIndex] = useState(-1);
 
     const project_list = [
-        { photo: 'amazon.jpg', link: 'https://luminous-entremet-b70012.netlify.app/', git: 'https://github.com/ZarrarPeshimam/Amazon_homepg_clone', t: 'Amazon homepage clone', skills: 'HTML, CSS, JS, UI/UX',
+        { photo: 'amazon.jpg', link: 'https://amazonhomepage-clone-2024.netlify.app/', git: 'https://github.com/ZarrarPeshimam/Amazon_homepg_clone', t: 'Amazon homepage clone', skills: 'HTML, CSS, JS, UI/UX',
             d: `This project is a frontend replica of Amazon's homepage, designed to closely resemble its UI/UX, layout, and interactive elements.\n
                 Faithful UI/UX Design – Mimics Amazon’s homepage layout, including navigation bars, product sections, and banners.\n
                 Interactive Features – Implemented JavaScript for a dynamic shopping experience (e.g., sliding images).` },
