@@ -5,7 +5,7 @@ import Educard from './Educard';
 
 export default function Skills() {
   const edu_list=[
-    { photo: 'spit.png', t: 'Sardar Patel Institute of Technology',grade:'8.85/10', d:'BTech Computer Science (23-27)'},
+    { photo: 'spit.png', t: 'Sardar Patel Institute of Technology',grade:'8.49/10', d:'BTech Computer Science (23-27)'},
     { photo: 'jr_college.png', t: 'Vidyanidhi Jr College of Science',grade:'89.5%',d:'11th-12th Science (21-23)'}
   ];
   return (

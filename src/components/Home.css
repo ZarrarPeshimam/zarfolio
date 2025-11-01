@@ -30,9 +30,11 @@
 }
 
 .profile-pic img {
-  width: 300px; 
+  width: 300px;
   height: 300px;
-  padding-left: 80px;
+  border-radius: 50%;   /* makes it circular */
+  object-fit: cover;    /* ensures image fits nicely inside the circle */
+  margin-left: 100px;
 }
 .hero-content {
   width: 60%;
@@ -104,5 +106,4 @@
   
   
 }
-  
-  
+ 

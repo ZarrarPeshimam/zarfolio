@@ -10,6 +10,7 @@ export default function Eduaction() {
     { photo: 'dsa.png', t: 'DSA' },
     { photo: 'sql.png', t: 'SQL' },
     { photo: 'react.png', t: 'React' },
+    { photo: 'node.png', t: 'MERN Stack' },
     { photo: 'pandas.png', t: 'Pandas' },
     { photo: 'canva.png', t: 'Canva' }
   ];

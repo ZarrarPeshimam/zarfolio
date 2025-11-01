@@ -27,6 +27,7 @@
     object-fit: contain; 
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 .Exp-card-container h1 {
