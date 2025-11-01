@@ -5,11 +5,11 @@ import Ach_card from './Ach_card'
 
 export default function Certificates() {
   const cer_list=[
-    { photo: 'devtown_pyai.jpg', t: 'Python and AI Bootcamp by Devtown' ,link:'https://www.cert.devtown.in/verify/1nKJvm'},
-    { photo: 'devtown_web.jpg', t: 'WebDev Bootcamp by devtown' ,link:'https://www.cert.devtown.in/verify/ZmAwCP'},
     { photo: 'pec.jpg', t: 'Qualified for Round 2 of Coding Battle by Pragati Engineering College ', link:'https://unstop.com/certificate-preview/4c9ca68a-ebb0-4862-b2a6-d8f4fd08e093'},
     { photo: 'frontendhack.jpg', t: 'Participated in Odysee Frontend Hackathon by SPIT' ,link:''},
     { photo: 'ninja.jpg', t: 'Participated in 21-day Slayground 2.0 challenge by Coding Ninja' ,link:'https://ninjasfiles.s3.amazonaws.com/certificate_of_event_ninja_slayground_2_0_21_day_coding_challenge_331b227dbd38d78263fc.pdf'},
+    { photo: 'devtown_pyai.jpg', t: 'Python and AI Bootcamp by Devtown' ,link:'https://www.cert.devtown.in/verify/1nKJvm'},
+    { photo: 'devtown_web.jpg', t: 'WebDev Bootcamp by devtown' ,link:'https://www.cert.devtown.in/verify/ZmAwCP'},
     { photo: 'codehousie.jpg', t: 'Participated in CodeHousie 2024 by CSI SPIT' ,link:''},
     { photo: 'flipkart6.jpg', t: 'Participated in Flipkart GRiD 6.0' ,link:'https://unstop.com/certificate-preview/e3a3cc16-44d2-46c2-b50c-92abf1a7987f'},
     { photo: 'devtownapprec.jpg', t: 'Certificate Of Appreciation by Devtown' ,link:'https://www.cert.devtown.in/verify/1nKJvm'},
