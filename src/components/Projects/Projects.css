@@ -20,6 +20,8 @@
     gap: 40px;
     width: 80%;
     max-width: 1200px;   /* Prevents ultra-wide stretching */
+    justify-content: center; /* Centers the columns within the grid */
+    justify-items: center;
 }
 
 /* ================= LARGE TABLETS ================= */

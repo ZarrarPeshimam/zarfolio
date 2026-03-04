@@ -15,7 +15,7 @@ html {
   top: 0;
   left: 0;
   z-index: 1000;
-  margin-left: -1rem;
+  margin-left: 0;
   /*border:red 1px solid;*/
 }
 
@@ -65,12 +65,11 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%; /* CHANGED: Use 100% instead of 100vw */
   height: 100vh;
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
   z-index: 999;
-  /* Add these to prevent the overlay from blocking clicks when closed */
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;

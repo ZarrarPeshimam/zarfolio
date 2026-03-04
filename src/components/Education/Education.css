@@ -8,11 +8,8 @@
 }
 
 .Edu-container header {
-    padding-bottom: 40px;
-    font-size: 2.5rem;
-    color: #348cea;
-    text-align: center;
-    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 25px;
 }
 
 .Edu-grid {
@@ -20,7 +17,8 @@
     /* Use auto-fit to allow cards to grow/shrink naturally */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 30px;
-    justify-content: center;
+    justify-content: center; /* Centers the grid columns */
+    justify-items: center;
 }
 
 /* ---------------- MOBILE ADJUSTMENTS ---------------- */
