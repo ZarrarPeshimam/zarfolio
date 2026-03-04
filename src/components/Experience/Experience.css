@@ -1,7 +1,8 @@
 /* ================= SECTION ================= */
 
 .Exp-section {
-  padding: 80px 0;
+  padding: 0px 0;
+  padding-top: 40px;
   background-color: #010010;
   color: white;
   width: 100%;
@@ -97,12 +98,18 @@
 /* ================= CARD ================= */
 
 .Exp-card-modern {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(137, 157, 238, 0.2);
-  border-radius: 16px;
-  padding: 24px;
-  text-align: center;
-  transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(137, 157, 238, 0.2);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    transition: all 0.3s ease;
+
+    /* THE FIX: Force uniform height 
+    display: flex;
+    flex-direction: column;
+    height: 100%;       /* Takes full height of the Timeline-item container */
+    /*min-height: 380px;  /* Adjust this value based on your longest description */
 }
 
 .Exp-card-modern:hover {
@@ -115,7 +122,7 @@
 .Card-logo {
   width: 50px;
   height: 50px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   object-fit: contain;
 }
 

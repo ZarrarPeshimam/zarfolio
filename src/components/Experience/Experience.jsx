@@ -9,25 +9,32 @@ export default function Experience() {
 
   const exp_list = [
     {
-      photo: 'gssoc.png',
-      t: 'GirlScript Summer of Code (GSSoC)',
+      photo: 'reelcode.png', // Ensure you have this logo in your assets
+      t: 'ReelCode', 
+      role: 'SDE Intern',
+      d: `Built a GitHub-based developer ranking system that expanded repository sampling by 90%. Designed complex scoring logic for objective developer assessment and developed the backend APIs for automated profiling.`, 
+      time: 'Jan 2026 - Present' 
+    },
+    {
+      photo: 'hacktoberfest.png', 
+      t: 'Hacktoberfest 2025', 
       role: 'Open Source Contributor',
-      d: `Contributed to multiple open-source MERN and Python-based projects. Worked on full-stack issue fixes and frontend enhancements.`,
-      time: '2025',
+      d: `Achieved Super Contributor status with 6+ PRs. Integrated Gemini API for AI-powered weather conversations in 'SkyBuddy' and developed an automated StackOverflow answer summarizer for 'StackMate' using Google Gemini models.`, 
+      time: 'Oct 2025' 
     },
     {
       photo: 'gssoc.png',
       t: 'GirlScript Summer of Code (GSSoC)',
       role: 'Open Source Contributor',
-      d: `Contributed to multiple open-source MERN and Python-based projects. Worked on full-stack issue fixes and frontend enhancements.`,
-      time: '2025',
+      d: `Worked on multiple MERN and Python repositories, fixing production issues, enhancing UI responsiveness, and improving frontend and backend logic.`,
+      time: 'Aug-Sep 2025',
     },
     {
       photo: 'ssoc.png',
       t: 'Social Summer of Code (SSoC)',
       role: 'Open Source Contributor',
-      d: `Contributed to open-source projects under SSoC, primarily focusing on MERN stack and Python repositories.`,
-      time: '2025',
+       d: `Contributed to MERN and Python-based open-source projects by resolving frontend bugs, optimizing reusable UI components, and improving API integrations.`,
+      time: 'Jun-Aug 2025',
     },
     { 
       photo: 'spit.png', 
