@@ -3,7 +3,7 @@
     border-radius: 10px;
     background-color: #2d2d2d;
     /* THE FIX: Use 100% and box-sizing to stay within the 'Dojo' bounds */
-    width: 100%; 
+    width: 90%; 
     box-sizing: border-box;
     display: flex;
     flex-direction: column;

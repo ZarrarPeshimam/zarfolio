@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">ZAP</div>
+      {/*<div className="logo" style={{color: "#ffffff"}}>ZAP</div>*/}
 
       {/* The Overlay: Clicking this calls closeMenu */}
       {isOpen && <div className="menu-overlay" onClick={closeMenu}></div>}

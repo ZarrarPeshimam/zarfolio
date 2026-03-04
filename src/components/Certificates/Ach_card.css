@@ -3,7 +3,7 @@
     border-radius: 10px;
     background-color: rgb(31, 30, 45);
     /* CHANGE: Use 100% and box-sizing to prevent horizontal overflow */
-    width: 100%; 
+    width: 90%; 
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -18,8 +18,6 @@
 .Ach-card-container:hover {
     /* Slightly more visible border to match your TLE Generator blue */
     border-color: rgba(0, 85, 150, 0.399); 
-    transform: translateY(-5px);
-    background-color: rgb(38, 37, 56);
 }
 
 /* ---------------- MOBILE ---------------- */

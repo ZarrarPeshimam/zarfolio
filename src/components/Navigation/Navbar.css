@@ -16,6 +16,7 @@ html {
   left: 0;
   z-index: 1000;
   margin-left: -1rem;
+  /*border:red 1px solid;*/
 }
 
 /* ---------------- NAV LINKS (DESKTOP) ---------------- */
@@ -81,6 +82,11 @@ html {
 }
 
 /* ---------------- MOBILE ---------------- */
+
+.navbar {
+  margin-left: 0;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     position: fixed;

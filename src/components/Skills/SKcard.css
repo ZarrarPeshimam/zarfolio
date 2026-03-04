@@ -15,8 +15,6 @@
 
 .SK-card-container:hover {
     border-color: rgba(0, 85, 150, 0.399);
-    transform: translateY(-5px); /* Professional lift effect */
-    background-color: rgb(38, 37, 56);
 }
 
 .SK-card-container img {
