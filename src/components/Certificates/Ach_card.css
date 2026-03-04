@@ -1,17 +1,33 @@
-.Ach-card-container{
+.Ach-card-container {
     padding: 20px 20px;
     border-radius: 10px;
     background-color: rgb(31, 30, 45);
-    width:90%;
+    /* CHANGE: Use 100% and box-sizing to prevent horizontal overflow */
+    width: 100%; 
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
     border: 2px solid transparent;
     transition: all 0.3s ease-in-out;
+    /* Keeps cards centered if the grid column is wider */
+    margin: 0 auto; 
 }
 
-
 .Ach-card-container:hover {
-    border-color: rgba(0, 85, 150, 0.399);
+    /* Slightly more visible border to match your TLE Generator blue */
+    border-color: rgba(0, 85, 150, 0.399); 
+    transform: translateY(-5px);
+    background-color: rgb(38, 37, 56);
+}
+
+/* ---------------- MOBILE ---------------- */
+
+@media (max-width: 768px) {
+    .Ach-card-container {
+        padding: 15px;
+        /* Ensures cards don't feel too 'skinny' on mobile */
+        min-height: 80px; 
+    }
 }

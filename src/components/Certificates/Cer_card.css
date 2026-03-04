@@ -1,9 +1,10 @@
-.Cer-card-container{
-    padding: 20px 20px;
+.Cer-card-container {
+    padding: 20px;
     border-radius: 10px;
-    /*background-color: #33535b;*/
     background-color: #2d2d2d;
-    width:90%;
+    /* THE FIX: Use 100% and box-sizing to stay within the 'Dojo' bounds */
+    width: 100%; 
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -11,13 +12,13 @@
     border: 2px solid transparent;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+    margin: 0 auto;
 }
 
-
 .Cer-card-container:hover {
-    /*border-color: rgba(0, 255, 174, 0.399);*/
     border-color: rgba(255, 255, 255, 0.176);
-    transform: scale(1.05);
+    /* Subtle lift instead of just scaling to prevent edge clipping */
+    transform: translateY(-5px) scale(1.02);
 }
 
 .details {
@@ -25,31 +26,49 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .cert-image {
-    max-width: 70%; 
+    /* Desktop default */
+    max-width: 80%; 
     height: auto; 
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.details button{
+.details button {
     color: rgb(224, 225, 226);
     cursor: pointer;
     background-color: rgb(9, 50, 115);
-    border: 0px;
+    border: none;
     font-size: 15px;
-    width: 70%;
-    padding: 10px 30px;
+    width: 60%;
+    max-width: 250px; /* Prevents button from getting too wide */
+    padding: 10px 20px;
     border-radius: 0.5rem;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-.details button:hover{
+.details button:hover {
     transform: scale(1.05);
     background-color: rgb(15, 80, 185);
 }
 
+/* ---------------- RESPONSIVE ---------------- */
 
+@media (max-width: 768px) {
+    .Cer-card-container {
+        padding: 15px;
+    }
 
+    .cert-image {
+        /* On mobile, let the image take more width to be readable */
+        max-width: 100%; 
+    }
+
+    .details button {
+        width: 90%; /* Larger tap target for mobile users */
+    }
+}

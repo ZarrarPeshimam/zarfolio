@@ -1,20 +1,26 @@
-.SK-card-container{
-    padding: 20px 20px;
+.SK-card-container {
+    padding: 20px;
     border-radius: 10px;
     background-color: rgb(31, 30, 45);
-    width:90%;
+    /* CHANGE: width: 100% + box-sizing prevents the 'nudge' */
+    width: 100%; 
+    box-sizing: border-box; 
     display: flex;
-    gap: 10px;
+    align-items: center; /* Ensures content is vertically centered */
     justify-content: center;
+    gap: 15px;
     border: 2px solid transparent;
-    transition: border 0.3s ease-in-out, transform 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .SK-card-container:hover {
     border-color: rgba(0, 85, 150, 0.399);
+    transform: translateY(-5px); /* Professional lift effect */
+    background-color: rgb(38, 37, 56);
 }
 
-
-.SK-card-container img{
-    height: 50px;
+.SK-card-container img {
+    height: 40px; /* Slightly smaller for better mobile fit */
+    width: auto;
+    object-fit: contain;
 }

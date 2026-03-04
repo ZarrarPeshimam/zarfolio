@@ -4,8 +4,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box; 
+    /*border: red 1px solid; /* DEBUGGING: Remove this after confirming layout */
 }
-
 /* ================= HEADER ================= */
 
 .Proj-container header{

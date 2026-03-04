@@ -1,15 +1,62 @@
 .Cer-container {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content */
+    box-sizing: border-box;
 }
 
-.Cer-container header{
+.Cer-container header {
     margin-top: 15px;
     font-size: 25px;
+    width: 100%;
+    max-width: 1200px;
 }
 
-.cer-lister ul{
-    list-style: none; 
+.cer-lister {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.cer-lister ul {
+    list-style: none;
+    padding: 0;
     display: flex;
-    flex-wrap: wrap; 
-    gap: 20px; 
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start; /* Aligns cards to the left on desktop */
+}
+
+/* ---------------- RESPONSIVE MEDIA QUERIES ---------------- */
+
+/* Tablets and small desktops */
+@media (max-width: 1024px) {
+    .Cer-container {
+        padding: 20px;
+    }
+    
+    .cer-lister ul {
+        justify-content: center; /* Centers cards on medium screens */
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 768px) {
+    .Cer-container header {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .cer-lister ul {
+        flex-direction: column; /* Stacks cards vertically for better mobile viewing */
+        align-items: center;
+        gap: 15px;
+    }
+
+    /* Ensures cards take up full width on mobile minus padding */
+    .cer-lister ul li, 
+    .Cer-card-container { 
+        width: 100%;
+        max-width: 100%;
+    }
 }
