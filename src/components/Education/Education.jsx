@@ -1,11 +1,11 @@
 import React from 'react'
-import SKcard from './SKcard'
-import './Skills.css'
+import SKcard from '../Skills/SKcard'
+import '../Education/Education.css'
 import Educard from './Educard';
 
-export default function Skills() {
+export default function Education() {
   const edu_list=[
-    { photo: 'spit.png', t: 'Sardar Patel Institute of Technology',grade:'8.49/10', d:'BTech Computer Science (23-27)'},
+    { photo: 'spit.png', t: 'Sardar Patel Institute of Technology',grade:'8.51/10', d:'BTech Computer Science (23-27)'},
     { photo: 'jr_college.png', t: 'Vidyanidhi Jr College of Science',grade:'89.5%',d:'11th-12th Science (21-23)'}
   ];
   return (

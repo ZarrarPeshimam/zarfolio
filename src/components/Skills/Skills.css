@@ -1,0 +1,61 @@
+.Skill-container {
+    padding: 20px 30px;
+}
+
+.Skill-container header{
+    font-size: 1.6rem;
+}
+
+.category-title {
+    font-size: 1.2rem;
+    color: #899dee;
+    margin-bottom: 18px;
+    border-left: 4px solid #348cea;
+    padding-left: 15px;
+}
+
+/* ---------------- RESPONSIVE GRID ---------------- */
+.SK-grid {
+    display: grid;
+    /* auto-fit fills the row, minmax prevents cards from getting too small */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 20px;
+    justify-content: center;
+}
+
+/* ---------------- MOBILE ADJUSTMENTS ---------------- */
+@media (max-width: 768px) {
+    .Skill-container {
+        padding: 40px 15px;
+    }
+
+    .Skill-container header {
+        font-size: 2rem;
+    }
+
+    .SK-grid {
+        /* Force 2 columns on tablets/large phones */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .SK-grid {
+        /* Stack cards in 1 column on small mobile devices */
+        grid-template-columns: 1fr;
+    }
+
+    .category-title {
+        text-align: center;
+        border-left: none;
+        border-bottom: 2px solid #348cea;
+        padding-left: 0;
+        padding-bottom: 5px;
+        display: inline-block;
+    }
+    
+    .Skill-category-section {
+        text-align: center;
+    }
+}

@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navigation/Navbar';
 import Home from './components/Home';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Certificates from './components/Certificates';
-import Contact from './components/Contact';
+import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import Experience from './components/Experience/Experience';
+import Education from './components/Education/Education';
+import Certificates from './components/Certificates/Certificates';
+import Contact from './components/Contact/Contact';
 import './App.css';
 
 function App() {

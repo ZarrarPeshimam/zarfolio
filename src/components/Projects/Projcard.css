@@ -1,0 +1,201 @@
+.Proj-card-container {
+    padding: 0px 20px;
+    border-radius: 10px;
+    background-color: #2d2d2d;
+    width: 90%;
+    max-width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* FIXED transform conflict (you had 2 transforms overriding each other) */
+.Proj-card-container:hover {
+    transform: translateY(-10px) scale(1.05);
+    border-color: rgba(255, 255, 255, 0.176);
+}
+
+/* ---------------- FRONT SIDE ---------------- */
+
+.Proj-card-front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: opacity 0.3s ease;
+    width: 100%;
+    position: absolute;
+    opacity: 1;
+}
+
+.Proj-card-container:hover .Proj-card-front {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.Proj-card-front img {
+    height: 120px;
+    max-width: 100%;
+    object-fit: contain;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.Proj-card-front h1 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+/* ---------------- TECH CAPSULES ---------------- */
+
+.Tech-capsules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+    gap: 8px;
+}
+
+.Skill-badge {
+    background: rgba(52, 140, 234, 0.2);
+    color: #899dee;
+    padding: 4px 12px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid rgba(137, 157, 238, 0.3);
+}
+
+/* ---------------- BACK SIDE ---------------- */
+
+.Proj-details {
+    position: absolute;
+    inset: 0;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.4s ease;
+    background: rgba(1, 0, 16, 0.95);
+}
+
+.Proj-card-container:hover .Proj-details {
+    opacity: 1;
+}
+
+.Details-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Proj-dl {
+    color: #cacaca;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ---------------- BUTTONS ---------------- */
+
+.Proj-buttons {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.Proj-btn {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    font-size: 14px;
+}
+
+.Proj-btn.link {
+    background: rgb(3, 136, 12);
+    color: white;
+}
+
+.Proj-btn.github {
+    background: #333;
+    color: white;
+}
+
+.Proj-btn:hover {
+    filter: brightness(1.2);
+    transform: scale(1.05);
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .Proj-card-container {
+        height: 380px;
+    }
+
+    .Proj-card-front h1 {
+        font-size: 22px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .Proj-card-container {
+        width: 100%;
+        height: auto;
+        min-height: 360px;
+        padding: 18px;
+    }
+
+    .Proj-card-front img {
+        height: 100px;
+    }
+
+    .Proj-card-front h1 {
+        font-size: 20px;
+    }
+
+    .Proj-dl {
+        font-size: 0.85rem;
+    }
+
+    .Proj-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Proj-btn {
+        width: 100%;
+    }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .Proj-card-container {
+        min-height: 340px;
+    }
+
+    .Proj-card-front img {
+        height: 85px;
+    }
+
+    .Skill-badge {
+        font-size: 11px;
+        padding: 4px 10px;
+    }
+}
