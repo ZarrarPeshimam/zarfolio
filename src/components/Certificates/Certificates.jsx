@@ -9,7 +9,7 @@ export default function Certificates() {
 
   const cer_list = [
     { photo: 'project-a-thon.png', t: 'Runner-up at Project-A-thons' ,link:''},
-    { photo: 'ibm.png', t: 'IBM AI/ML Training' ,link:''},
+    { photo: 'ibm.png', t: 'IBM AI/ML Virtual Training' ,link:''},
     { photo: 'pec.jpg', t: 'Qualified for Round 2 of Coding Battle by Pragati Engineering College ', link:'https://unstop.com/certificate-preview/4c9ca68a-ebb0-4862-b2a6-d8f4fd08e093'},
     //{ photo: 'frontendhack.jpg', t: 'Participated in Odysee Frontend Hackathon by SPIT' ,link:''},
     { photo: 'ninja.jpg', t: 'Participated in 21-day Slayground 2.0 Challenge by Coding Ninja' ,link:'https://ninjasfiles.s3.amazonaws.com/certificate_of_event_ninja_slayground_2_0_21_day_coding_challenge_331b227dbd38d78263fc.pdf'},
