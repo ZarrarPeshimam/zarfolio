@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import './Projects.css';
 import Projcard from './Projcard';
+import OpenSourceCallout from './OpenSourceCallout';
+
+// Public ContriHub profile shown in the Open Source Contributions callout.
+// Replace the placeholder below with your actual profile URL.
+const CONTRIHUB_PROFILE_URL = 'https://contri-hub-os.vercel.app/zapdark';
 
 export default function Projects() {
     const [selectedIndex, setSelectedIndex] = useState(-1);
@@ -76,6 +81,7 @@ export default function Projects() {
     return (
         <div className='Proj-container'>
             <header>Projects</header>
+            <OpenSourceCallout href={CONTRIHUB_PROFILE_URL} />
             <div className='Proj-grid'>
                 {project_list.map((e, index) => (
                     <Projcard 

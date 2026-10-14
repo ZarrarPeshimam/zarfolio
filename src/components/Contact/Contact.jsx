@@ -15,13 +15,6 @@ export default function Contact() {
         </div>
 
         <div className="contact-row">
-          <div className="contact-label">Phone</div>
-          <div className="contact-value">
-            +91 99201 01840
-          </div>
-        </div>
-
-        <div className="contact-row">
           <div className="contact-label">Location</div>
           <div className="contact-value">
             Mumbai, Maharashtra, India

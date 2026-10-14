@@ -45,7 +45,7 @@ export default function Home() {
       <div className="container">
         <div className="hero-content">
           <h1>Hi, <span className="highlight">Zarrar Peshimam</span> here</h1>
-          <p>A 3rd year Computer Science student and a hardworking individual with curiosity of learning and exploring new softwares and technology. 
+          <p>Final year Computer Science student and a hardworking individual with curiosity of learning and exploring new softwares and technology. 
             Eager to work on projects related to field of programming and learn from my mistakes. 
             Aspire to work on industry level projects and solving real world problems.
           </p>
